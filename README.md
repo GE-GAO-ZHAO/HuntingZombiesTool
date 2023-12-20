@@ -6,8 +6,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/HuntingZombiesTool.svg?style=flat)](https://cocoapods.org/pods/HuntingZombiesTool)
 
 ## Example
+![Xnip2023-12-20_17-38-18](https://github.com/GE-GAO-ZHAO/HuntingZombiesTool/assets/66877871/88305775-1d1a-420a-95de-7977f3ea6c58)
+![Xnip2023-12-20_17-07-29](https://github.com/GE-GAO-ZHAO/HuntingZombiesTool/assets/66877871/3ac4774a-b12c-4de0-979b-46d010979e4f)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+具体使用可以参见的Example
 
 ## Requirements
 
@@ -17,6 +19,7 @@ HuntingZombiesTool is available through [CocoaPods](https://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
+source 'https://cdn.cocoapods.org'
 pod 'HuntingZombiesTool'
 ```
 
