@@ -18,12 +18,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *tmpBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 100, 50)];
+    [tmpBtn addTarget:self action:@selector(tmpBtnClickd:) forControlEvents:UIControlEventTouchUpInside];
+    tmpBtn.backgroundColor = [UIColor redColor];
+    [tmpBtn setTitle:@"Button" forState:UIControlStateNormal];
+    [self.view addSubview:tmpBtn];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -------------------------- Response  Event
+
+- (void)tmpBtnClickd:(UIButton *)sender {
+    UIView* testObj = [[UIView alloc] init];
+    [testObj release];
+    [testObj setNeedsLayout];
 }
 
 @end
